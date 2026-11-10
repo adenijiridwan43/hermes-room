@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local secrets / env
+.env
+.env.*
+*.local
+secrets*
+
+# Logs
+*.log
+
+# Local receipts / taint state (never commit)
+.receipts.jsonl
+receipts.jsonl
+taint.jsonl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local-only design notes
+FUTURE.md

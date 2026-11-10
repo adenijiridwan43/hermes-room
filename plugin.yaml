@@ -1,0 +1,14 @@
+name: hermes-room
+version: 0.2.0
+description: Hermes Room — untrusted content sanitizer + trust receipt; washes web/email/file/tool output before Hermes sees it, with an optional host-model reviewer (Mode 1)
+author: Hermes Hackathon Team
+license: MIT
+requires_hermes: ">=0.21.5"
+manifest_version: 2
+api_version: 1
+tags: [security, prompt-injection, untrusted-content, provenance]
+provides_tools:
+  - trust_receipt
+  - trust_report
+provides_hooks:
+  - transform_tool_result

@@ -1,0 +1,4 @@
+normal line
+[31mred alert[0m
+]0;window title
+after ansi
